@@ -1,0 +1,31 @@
+#variables:
+#  IMAGES_NAME: thong2802/e-com-bap_api
+#  IMAGES_TAG: be_nest_ecommerce
+#
+#stages:
+#  - test
+#  - build
+#  - deploy
+#
+#variables:
+#  DB_HOST: example.com
+#  DB_USERNAME: myuser
+#  DB_PASSWORD: mypassword
+#  NODE_ENV: production
+#
+#
+#run_tests:
+#  stages: run_tests
+#  script:
+#    - npm run test
+#
+#.build:
+#  stages: build
+#  scripts:
+#    - npm run build
+#
+#deploy:
+#  stages: deploy
+#  script:
+#  only:
+#    - production
